@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: sans-serif;
+}
+.dashboard-conatiner{
+    width: 100vw;
+    height: auto;
+}
+table{
+    width: 100%;
+    border-style: none;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.userdetails{
+    width: 60%;
+    /* border: 1px solid red; */
+    align-content: start;
+    padding: 10px;
+}
+.userdetails ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.userdetails ul li{
+    padding: 10px 40px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.userList{
+    width: 20%;
+    text-align: left;
+}
+.leftTab{
+    list-style: none;
+    padding: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(68, 70, 69);
+    color: rgb(218, 212, 212);
+
+}
+th{
+    padding: 20px;
+    color: white;
+    background-color: rgb(89, 137, 101);
+    border: none;
+    font-size: 20px;
+}
+th td{
+    border: none;
+    font-family: sans-serif;
+
+}
+.leftTab:hover{
+    background-color: rgb(89, 137, 101);
+}
+.userData{
+    color: white;
+}
+.activeUser{
+    background-color: rgb(89, 137, 101);
+}
+.activeUserTab{
+    background-color: rgb(89, 137, 101);
+}
+.Action{
+    align-content: start;
+    text-align: center;
+}
+.Action li{
+    margin-top: 30px;
+}
